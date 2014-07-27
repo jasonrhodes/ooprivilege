@@ -11,6 +11,10 @@ Person.prototype.workHard = function () {
   this.success += this.averageEffortExerted;
 };
 
+Person.prototype.currentSuccess = function () {
+  return this.success * this.intelligence;
+}
+
 var Utopia = function (n, options) {
   this.people = [];
   if (n) { this.create(n); }
@@ -34,7 +38,7 @@ Utopia.prototype.progress = function () {
   });
   console.log("Name\t\t| Success\t| Start");
   this.people.forEach(function (person) {
-    console.log(person.name + "\t| " + person.success + "\t\t| " + person.start);
+    console.log(person.name + "\t| " + person.currentSuccess() + "\t\t| " + person.start);
   });
 };
 

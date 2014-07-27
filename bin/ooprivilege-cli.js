@@ -15,13 +15,13 @@ prompt.get({
       description: "Let's build a new utopia--how many people should we create?".cyan
     },
     intelligence: {
-      description: "And how intelligent should everyone be? (1-100)".cyan
+      description: "And how intelligent should everyone be? (1-10)".cyan
     },
     effort: {
-      description: "And on average, how hard should these people be willing to work? (1-100)".cyan
+      description: "And on average, how hard should these people be willing to work? (1-10)".cyan
     },
     work: {
-      description: "And finally, how many times should they work hard? (1-100)".cyan
+      description: "And finally, how many times should they work hard? (1-10)".cyan
     }
   }
 }, function (err, result) {
