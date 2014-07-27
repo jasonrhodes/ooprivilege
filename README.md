@@ -23,16 +23,16 @@ equalia.people[3].intelligence; // => 95
 equalia.people[3].averageEffortExerted; // => 10
 
 // Everybody works hard
-equalia.everybodyWorkHard();
+equalia.everybodyWorkHard(); // => adds 10 based on average effort exerted value
 
 // Everybody works hard again
-equalia.everybodyWorkHard();
+equalia.everybodyWorkHard(); // => adds 10 based on average effort exerted value
 
 // Everybody works hard some more
-equalia.everybodyWorkHard();
+equalia.everybodyWorkHard(); // => adds 10 based on average effort exerted value
 
 // Everybody continues to work really hard
-equalia.everybodyWorkHard();
+equalia.everybodyWorkHard(); // => adds 10 based on average effort exerted value
 
 // Let's look at how much success everyone has had
 equalia.progress();
