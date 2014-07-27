@@ -32,7 +32,7 @@ Utopia.prototype.everybodyWorkHard = function () {
   });
 };
 
-Utopia.prototype.progress = function () {
+Utopia.prototype.logSuccess = function () {
   this.people.sort(function (a, b) {
     return b.success - a.success;
   });

@@ -46,7 +46,7 @@ prompt.get({
   console.log("");
   console.log("Final success log:");
   console.log("");
-  utopia.progress();
+  utopia.logSuccess();
   console.log("");
 
 });

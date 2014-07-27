@@ -35,10 +35,10 @@ equalia.everybodyWorkHard(); // => adds 10 based on average effort exerted value
 equalia.everybodyWorkHard(); // => adds 10 based on average effort exerted value
 
 // Let's look at how much success everyone has had
-equalia.progress();
+equalia.logSuccess();
 ```
 
-`.progress()` prints out a table like this:
+`.logSuccess()` prints out a table like this:
 
 | Name | Success | Start |
 | :---- | :----: | :----: |
@@ -49,7 +49,7 @@ equalia.progress();
 | Person 3 | 460 | 6 |
 
 
-What happened? I thought everyone in this utopia was the same level of intelligence, and they all worked with the same effort, and for the same amount of time? 
+What happened? I thought everyone in this utopia was the same level of intelligence, and they all worked with the same effort, and for the same amount of time?
 
 It turns out, the bottom you start from has a big effect on the place you end up...
 
