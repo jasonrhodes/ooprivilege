@@ -1,5 +1,5 @@
-ooprivilege
-===========
+Object-Oriented Privilege
+=========================
 
 Demonstrating and reminding myself how privilege works using simple mathematics.
 
