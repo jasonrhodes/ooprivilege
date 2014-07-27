@@ -12,14 +12,14 @@ var Utopia = require("ooprivilege").Utopia;
 
 // Create our new utopia with 5 equal people, to start
 var equalia = new Utopia(5, {
-  intelligence: 95,
+  intelligence: 10,
   averageEffortExerted: 10
 });
 
 // Demonstrate equality
-equalia.people[0].intelligence; // => 95
+equalia.people[0].intelligence; // => 10
 equalia.people[0].averageEffortExerted; // => 10
-equalia.people[3].intelligence; // => 95
+equalia.people[3].intelligence; // => 10
 equalia.people[3].averageEffortExerted; // => 10
 
 // Everybody works hard
@@ -42,11 +42,11 @@ equalia.progress();
 
 | Name | Success | Start |
 | :---- | :----: | :----: |
-| Person 2 | 120 | 80 |
-| Person 4 | 99 | 59 |
-| Person 5 | 64 | 24 |
-| Person 1 | 52 | 12 |
-| Person 3 | 46 | 6 |
+| Person 2 | 1200 | 80 |
+| Person 4 | 990 | 59 |
+| Person 5 | 640 | 24 |
+| Person 1 | 520 | 12 |
+| Person 3 | 460 | 6 |
 
 
 What happened? I thought everyone in this utopia was the same level of intelligence, and they all worked with the same effort, and for the same amount of time? 
