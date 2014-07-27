@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var argv = require("minimist").argv;
 var prompt = require("prompt");
 var Utopia = require("../ooprivilege").Utopia;

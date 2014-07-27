@@ -11,14 +11,14 @@ Person.prototype.workHard = function () {
   this.success += this.averageEffortExerted;
 };
 
-var Utopia = function (n) {
+var Utopia = function (n, options) {
   this.people = [];
   if (n) { this.create(n); }
 };
 
-Utopia.prototype.create = function (n) {
+Utopia.prototype.create = function (n, options) {
   for (var i = 0; i < n; i++) {
-    this.people.push(new Person("Person " + (i + 1)));
+    this.people.push(new Person("Person " + (i + 1), options));
   }
 };
 
