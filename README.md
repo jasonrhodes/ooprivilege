@@ -38,15 +38,16 @@ equalia.everybodyWorkHard();
 equalia.progress();
 ```
 
-That will print out a table like this:
-```
-Name		  | Success	 | Start
-Person 2	| 120		   | 80
-Person 4  | 99       | 59
-Person 5  | 64       | 24
-Person 1	| 52		   | 12
-Person 3	| 46		   | 6
-```
+`.progress()` prints out a table like this:
+
+| Name | Success | Start |
+| :---- | :----: | :----: |
+| Person 2 | 120 | 80 |
+| Person 4 | 99 | 59 |
+| Person 5 | 64 | 24 |
+| Person 1 | 52 | 12 |
+| Person 3 | 46 | 6 |
+
 
 What happened? I thought everyone in this utopia was the same level of intelligence, and they all worked with the same effort, and for the same amount of time? 
 
