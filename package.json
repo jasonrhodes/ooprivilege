@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/jasonrhodes/ooprivilege",
   "dependencies": {
-    "minimist": "^0.2.0",
     "prompt": "^0.2.13"
   },
   "devDependencies": {
