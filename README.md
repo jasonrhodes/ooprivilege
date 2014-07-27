@@ -51,5 +51,5 @@ equalia.progress();
 
 What happened? I thought everyone in this utopia was the same level of intelligence, and they all worked with the same effort, and for the same amount of time? 
 
-It turns out, how you start has a big effect on how you finish...
+It turns out, the bottom you start from has a big effect on the place you end up...
 
